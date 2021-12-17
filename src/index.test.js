@@ -1,5 +1,5 @@
 describe('some simple test', ()=> {
-     it(' 4+5 should be 9 ', ()=> {
-          expect(4+5).toBe(9)
+     it(' 4+6 should be 9 ', ()=> {
+          expect(4+6).toBe(10)
      })
 })

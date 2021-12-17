@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "acp": "git add . && npm run commit && git push",
     "commit": "git-cz",
     "test": "CI=true react-scripts test",
     "eject": "react-scripts eject",
