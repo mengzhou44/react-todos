@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "commit": "git-cz",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "semantic-release": "semantic-release  --branches master"
@@ -39,10 +40,16 @@
     ]
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^18.0.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mengzhou44/react-todos.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
