@@ -47,6 +47,9 @@
     "type": "git",
     "url": "https://github.com/mengzhou44/react-todos.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/mengzhouaws/"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
