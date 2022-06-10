@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^18.0.1"
+    "semantic-release": "^19.0.3"
   },
   "repository": {
     "type": "git",
